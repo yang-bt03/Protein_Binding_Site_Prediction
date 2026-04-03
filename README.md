@@ -94,53 +94,54 @@ subset, which also helped reduce resource consumption. Working with high-dimensi
 ---
 ---
 
-### General tutorial (both with package install and without)
+### General Tutorial (With and Without Package Install)
 
-#### Running the script without installing the package: 
-1. Git clone the repo and create a specific conda environment.
-    ```bash
+#### Running the Script Without Installing the Package
+
+1. Clone the repo and create a conda environment.
+```bash
     git clone "repo link"
     conda create -n env_name
-    ```
-
-3. Then conda activate and pip install the packages with the requirements.txt file. 
-    ```bash
+```
+2. Activate the environment and install dependencies.
+```bash
     conda activate env_name
     pip install -r requirements.txt
-    ```
-
-5. Once you have installed all necessary pacakges, run the script "main.py" with the command:
-    ```bash
+```
+3. Run the script with the command:
+```bash
     python main.py pdb_filepath
-    ```
+```
 
 #### With the Package Installed
-    ```bash
-    pbs pdb_filepath
-    ```
-    ---
+```bash
+pbs pdb_filepath
+```
+---
+
 #### Function Documentation
-    ```python
-    help(main)
-    ```
+```python
+help(main)
+```
 
 **Arguments:**
 
-    | Argument | Type | Description |
-    |---|---|---|
-    | `pdb_filepath` | `str` | Path to the input `.pdb` file (e.g., `data/1HSG.pdb`) |
+| Argument | Type | Description |
+|---|---|---|
+| `pdb_filepath` | `str` | Path to the input `.pdb` file (e.g., `data/1HSG.pdb`) |
 
 **Output:**
 
 A PyMOL script named `<PDB_id>_binding.pml` saved to the current directory.
 
 **Example:**
-    ```bash
-    python ./script/main.py ./test/test1/1HSG.pdb
-    ```
-    ```bash
-    pbs ./test/test1/1HSG.pdb
-    ```
+```bash
+python ./script/main.py ./test/test1/1HSG.pdb
+```
+```bash
+pbs ./test/test1/1HSG.pdb
+```
+
 The script outputs a `.pml` file that can be opened in a text editor to inspect predicted binding site residues, or loaded directly into PyMOL for visual confirmation.
    
 ### How to install the package
