@@ -5,7 +5,7 @@ description = "Predicting binding sites using ESM and PyMol"
 authors = [
     {name = "Austin Gilbride"},
     {name = "David Guil", email = "davidguilfarras@gmail.com"},
-    {name = "Yangxin Zhan"}
+    {name = "Yangxin Zhan Du", email = "yxindu03@gmail.com"}
 ]
 dependencies = [
     "torch",
