@@ -93,7 +93,7 @@ This dataset is a subset of PDB IDs derived from BioLiP, curated through a multi
 | 3 | Sequence length | Apply minimum and maximum amino acid length thresholds |
 | 4 | Minimum binding sequence residues | Each PDB must have ≥ 8 binding residues |
 
-The full dataset processing and filtering workflow can be found in this folder in the file: [`dataset-processing.ipynb`](./dataset-processing.ipynb)
+The full dataset processing and filtering workflow can be found in: [`dataset-processing.ipynb`](./processed/dataset-processing.ipynb)
 ---
 
 ### `model_dataset_cleaned_V2.parquet`
