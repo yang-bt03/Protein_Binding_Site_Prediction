@@ -138,7 +138,9 @@ A PyMOL script named `<PDB_id>_binding.pml` saved to the current directory.
 ```bash
 python ./script/main.py ./test/test1/1HSG.pdb
 ```
-
+```bash
+pbs ./test/test1/1HSG.pdb
+```
 The script outputs a `.pml` file that can be opened in a text editor to inspect predicted binding site residues, or loaded directly into PyMOL for visual confirmation.
    
 ### How to install the package
