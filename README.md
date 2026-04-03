@@ -106,6 +106,7 @@ subset, which also helped reduce resource consumption. Working with high-dimensi
 2. Activate the environment and install dependencies.
 ```bash
     conda activate env_name
+    conda install pip
     pip install -r requirements.txt
 ```
 3. Run the script with the command:
