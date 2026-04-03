@@ -1,0 +1,27 @@
+[project]
+name = "predicting-binding-sites"
+version = "0.1.0"
+description = "Predicting binding sites using ESM and PyMol"
+authors = [
+    {name = "Austin Gilbride"},
+    {name = "David Guil", email = "davidguilfarras@gmail.com"},
+    {name = "Yangxin Zhan"}
+]
+dependencies = [
+    "torch",
+    "biopython",
+    "esm",
+    "httpx",
+    "pandas",
+    "numpy"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["class_files*", "script*"]
+
+[project.scripts]
+pbs = "script.main:main"

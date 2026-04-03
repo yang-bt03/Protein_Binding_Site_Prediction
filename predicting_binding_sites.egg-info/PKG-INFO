@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: predicting-binding-sites
+Version: 0.1.0
+Summary: Predicting binding sites using ESM and PyMol
+Author: Austin Gilbride, Yangxin Zhan
+Author-email: David Guil <davidguilfarras@gmail.com>
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: biopython
+Requires-Dist: esm
+Requires-Dist: httpx
+Requires-Dist: pandas
+Requires-Dist: numpy
+Dynamic: license-file

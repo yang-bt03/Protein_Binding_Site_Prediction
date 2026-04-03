@@ -1,0 +1,2 @@
+[console_scripts]
+pbs = script.main:main
