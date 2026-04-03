@@ -115,13 +115,13 @@ subset, which also helped reduce resource consumption. Working with high-dimensi
 
 #### With the Package Installed
 ```bash
-pbs pdb_filepath
+    pbs pdb_filepath
 ```
 ---
 
 #### Function Documentation
 ```python
-help(main)
+    help(main)
 ```
 
 **Arguments:**
@@ -136,10 +136,10 @@ A PyMOL script named `<PDB_id>_binding.pml` saved to the current directory.
 
 **Example:**
 ```bash
-python ./script/main.py ./test/test1/1HSG.pdb
+    python ./script/main.py ./test/test1/1HSG.pdb
 ```
 ```bash
-pbs ./test/test1/1HSG.pdb
+    pbs ./test/test1/1HSG.pdb
 ```
 
 The script outputs a `.pml` file that can be opened in a text editor to inspect predicted binding site residues, or loaded directly into PyMOL for visual confirmation.
