@@ -62,6 +62,7 @@ The metrics we've gotten after optimizing the threshold and evaluate the model w
 | Specificity        | 0.9860 |
 
 The high ROC AUC indicates strong discriminative ability between binding and non-binding residues. The model achieves excellent specificity, meaning it rarely misclassifies non-binding residues as binding. The MCC of 0.6232 provides the most honest overall summary, as it accounts for all four classification outcomes and is robust to the imbalance dataset.
+> **Note:** 0 = No binding residue, 1 = Binding residue
 
 <img width="673" height="468" alt="image" src="https://github.com/user-attachments/assets/16297f43-d0ca-4971-9e6d-028ae2049939" />
 
