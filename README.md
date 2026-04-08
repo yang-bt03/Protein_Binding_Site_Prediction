@@ -172,3 +172,10 @@ zoom binding_site
 
 ---
 ---
+
+---
+
+## Co-authors
+
+- Austin Gilbride ([https://github.com/tu-usuario](https://github.com/agilbride25))
+- David Guil ([https://github.com/usuario2](https://github.com/davidguilfarras09))
