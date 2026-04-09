@@ -61,7 +61,7 @@ The model is able to predict the binding site reasonably well, although it leave
 
 ### `Test 2: HBB4`
 HBB4 is hemoglobin, a highly documented protein that contains several heme groups in its structure, which are essential for its function during oxygen transport.
-In this case, our model predicts the binding sites very accurately, substantially improving upon the results obtained with HSG1. See the comparative images and tables below. Notably, there are no false positives, yielding 100% precision.
+In this case, our model predicts the binding sites very accurately, substantially improving compared with 1HSG. See the comparative images and tables below. Notably, there are no false positives, yielding 100% precision.
 
 #### Table 1: Comparative
 #### Chain A
