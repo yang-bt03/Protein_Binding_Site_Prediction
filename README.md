@@ -56,7 +56,7 @@ The metrics we've gotten after optimizing the threshold and evaluate the model w
 | MCC                | 0.6232 |
 | Balanced Accuracy  | 0.8081 |
 | ROC AUC            | 0.9586 |
-| F1 (Weighted)      | 0.9720 |
+| F1                 | 0.6376 |
 | Precision          | 0.6453 |
 | Recall             | 0.6301 |
 | Specificity        | 0.9860 |
