@@ -115,7 +115,7 @@ The model predicts the binding sites with high precision. Although false negativ
 ---
 
 ### `Test 3: 1ATP`
-1ATP is a model kinase in cell biology. This protein has two ligand binding sites and will be used to assess how our model handles more challenging proteins. Furthermore, our model was not trained on peptides — one of its ligands — and we want to evaluate how it deals with this limitation.
+1ATP is a model kinase in cell biology. This protein has two ligand binding sites and will be used to assess how our model handles more challenging proteins. Furthermore, our model was not trained on peptides, one of its ligands, and we want to evaluate how it deals with this limitation.
 In this case, the model correctly predicts one of the two binding sites (ATP, yellow). The binding site of the peptide inhibitor (cyan) is not predicted as accurately.
 
 #### Table 1: Comparative — Chain E (1ATP)
